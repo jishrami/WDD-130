@@ -1,20 +1,38 @@
-header {
+body {
     background-color: lightblue;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    height: .5em;
+    text-decoration: underline;
 }
 
 #emphasis {
-    color: forestgreen;
+    color: limegreen;
 }
 
-.active {
+nav a {
     background-color: yellow;
-    color: gray
+    color: black;
+    text-decoration: none;
+    border: 1px solid; 
 }
 
-.room {
-    background-color: lightgray;
+img {
+    width: 30%;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+p {
+    width: 400px;
+    margin: 0 auto;
+    line-height: 1.5em;
 }
 
 .date {
