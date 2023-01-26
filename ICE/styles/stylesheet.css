@@ -1,0 +1,43 @@
+body {
+    background-color: lightpink;
+    text-align: center;
+    margin: 0 auto
+}
+
+#centering {
+    width: 450px;
+    margin: 0 auto;
+}
+
+#secondCenter {
+    width: 250px;
+    margin: 0 auto;
+
+}
+
+#title {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    min-width: 50px;
+    max-width: 300px;
+}
+
+ol {
+    text-align: left;
+}
+
+.firstQuote, #name, #title, #second-quote{
+    color: white
+}
+
+#name, ol, #title{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title:hover {
+    color: black
+}
