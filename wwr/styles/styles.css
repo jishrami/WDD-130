@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -11,8 +13,20 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
     height: 725px;
 }
 
+#logo {
+    padding-top: 5px;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #8EF9F3;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header {
@@ -22,6 +36,8 @@ header {
 nav a{
     color: #663F46;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -33,6 +49,10 @@ nav a:hover {
     background-color: #FF6B6B;
     color: #663F46;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -46,14 +66,22 @@ nav a:hover {
 
 .msg {
     background-color: #FFFD82;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .home-title {
     color: #FF6B6B;
+    font-family: "Abril Fatface", Helvetica, sans-serif;
+    font-size: 2em;
 }
 
 h4 {
     color: #663F46;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
@@ -62,11 +90,15 @@ h4 {
 
 .msg p {
     color: #663F46;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #FFFD82;
     color: #663F46;
+    font-size: .6em;
+    padding: 25px 50px;
 }
 
 footer a {
@@ -86,7 +118,19 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-.icon {
-    width: 80px;
+footer .social {
+    padding-top: 15px;
 }
 
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.card-img {
+    border: solid #663F46 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", Helvetica, sans-serif;
+} 
