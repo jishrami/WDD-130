@@ -59,17 +59,24 @@ nav a:hover {
     color: #663F46;
 }
 
+/* main div {
+    display: grid;
+    grid-template-columns: repeat(4 50px);
+} */
+
 .accordion {
     color: #663F46;
     background-color: #8EF9F3;
     cursor: pointer;
     padding: 30px 75px;
-    width: 100%;
+    width: 75%;
     text-align: left;
     border: none;
     outline: none;
     font-size:  large;
     transition: 0.4s;
+    border-radius: 50px;
+    font-size: larger;
 }
 
 .accordion:hover, .active{
@@ -77,12 +84,15 @@ nav a:hover {
 }
 
 .accordion:after {
-    content: "\2193";
-    font-size: 25px;
+    content: '\2795';
+    font-size: 18px;
+    color: #663F46;
+    float: right;
+    margin-left: 5px;
 }
 
 .active:after {
-    content: none;
+    content: "\2796";
 }
 
 .panel {
@@ -92,6 +102,9 @@ nav a:hover {
     display: none;
     overflow: hidden;
     border-radius: 30px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    font-size: large;
 }
 
 .hero {
@@ -129,7 +142,7 @@ footer .social {
     padding-top: 15px;
 }
 
-h1, h2, h3, h4, h5, h6, .accordion {
+h1, h2, h3, h4, h5, h6, .accordion, p {
     font-family: "Abril Fatface", Helvetica, sans-serif;
 } 
 
