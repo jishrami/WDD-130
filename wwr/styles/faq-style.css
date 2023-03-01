@@ -84,7 +84,7 @@ nav a:hover {
 }
 
 .accordion:after {
-    content: '\2795';
+    content: '\02795';
     font-size: 18px;
     color: #663F46;
     float: right;
@@ -96,18 +96,25 @@ nav a:hover {
 }
 
 .panel {
-    margin: 25px 50px;
+    margin: 25px 150px;
     background-color: #FF6B6B;
     color: #663F46;
-    display: none;
+    max-height: 0;
     overflow: hidden;
     border-radius: 30px;
-    max-height: 0;
     transition: max-height 0.2s ease-out;
     font-size: large;
 }
 
-/* Used code from: 
+/* .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+} */
+
+/* Used js, .panel, and .accordion from: 
 https://www.w3schools.com/howto/howto_js_accordion.asp#:~:text=To%20make%20an%20animated%20accordion,property%2C%20to%20the%20panel%20class. */
 
 .hero {
