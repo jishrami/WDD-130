@@ -92,7 +92,7 @@ nav a:hover {
 }
 
 .active:after {
-    content: "\2796";
+    content: "\02796";
 }
 
 .panel {
@@ -106,6 +106,9 @@ nav a:hover {
     transition: max-height 0.2s ease-out;
     font-size: large;
 }
+
+/* Used code from: 
+https://www.w3schools.com/howto/howto_js_accordion.asp#:~:text=To%20make%20an%20animated%20accordion,property%2C%20to%20the%20panel%20class. */
 
 .hero {
     width: 100%;
