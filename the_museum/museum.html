@@ -6,53 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE MUSEUM | HOME</title>
 </head>
-<header>
-    <a id="logo_link" href="museum.html">
-        <img class="logo" src="attatchments/Devvy-logos.jpeg" alt="logo image">
-    </a>
-    <div class="navigation">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-            <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-            <a href="museum.html">Home</a>
-            <a href="hero1.html">Daggar the Chosen</a>
-            <a href="hero2.html">Czazsar Thein</a>
+<body>
+    <header>
+        <div id="navigation">
+            <div></div>
+            <a id="logo_link" href="museum.html">
+                <img class="logo" src="attatchments/Devvy-logos.jpeg" alt="logo image">
+            </a>
+            <div class="navigation">
+                <button onclick="myFunction()" class="dropbtn">&#8801;</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <!-- https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+                    <a href="museum.html">Home</a>
+                    <a href="hero1.html">Daggar the Chosen</a>
+                    <a href="hero2.html">Czazsar Thein</a>
+                </div>
+            </div>
         </div>
-    </div>
-    <link rel="stylesheet" href="styles/museum-style.css">
-</header>
-<main>
-    <h2 class="title">The Museum</h2>
-    <div>
-        <p>The people I want to have come to my website are those that are interested in me. Employers, friends, professors, admirers, anyone who says “Who is this Josh kid, and what is he doing in terms of website building?”</p>	  
-        <p>This website is just an example of what I could make for anyone that is interested in my services. I thought of something I loved, and I am able to share it in any way I can think of to anyone I want to share it with.</p>
-        <p>The following link leads to the Wizards of the Coast player's handbook shop page. Below that are links, each leading to a new adventure as viewed by the characters I created. </p>
-    </div>
-    <div id="phb_link">
-        <a href="https://dnd.wizards.com/products/rpg_playershandbook" target="_blank">
-            <img class="image_link" src="attatchments/DnD_logo.png" alt="Dungeons and Dragons logo">
-        </a>
-    </div>
+        <link rel="stylesheet" href="styles/museum-style.css">
+    </header>
+    <main>
+        <h2 class="title">The Museum</h2>
+        <div class="intro">
+            <p>The people I want to have come to my website are those that are interested in me. Employers, friends, professors, admirers, anyone who says “Who is this Josh kid, and what is he doing in terms of website building?”</p>	  
+            <p>This website is just an example of what I could make for anyone that is interested in my services. I thought of something I loved, and I am able to share it in any way I can think of to anyone I want to share it with.</p>
+            <p>The following link leads to the Wizards of the Coast player's handbook shop page. Below that are links, each leading to a new adventure as viewed by the characters I created. </p>
+        </div>
+        <div class="links">
+            <div id="phb_link">
+                <a href="https://dnd.wizards.com/products/rpg_playershandbook" target="_blank">
+                    <img class="image_link" src="attatchments/DnD_logo.png" alt="Dungeons and Dragons logo">
+                </a>
+            </div>
 
-    <div class="hero1">
-        <!-- <iframe class="pdf" src="attatchments/"></iframe> -->
-        <p>Daggar the Chosen</p>
-        <a href="hero1.html">
-            <img class="nameplate" src="attatchments/Daggar_link.png" alt="Daggar character Name plate">
-        </a>
-    </div>
-        <p>Czazsar Thein</p>
-        <a href="hero2.html">
-            <img class="nameplate" src="attatchments/Czazar_link.png" alt="Czasar character name plate">
-        </a>
-    <div>
-
-    </div>
-</main>
-<footer>
-    <p>&copy; 2023 Josh Ramirez</p>
-    <a href="site-plan.html">Site Plan</a>
-    <a href="museum.html">Home</a>
-</footer>
-
+            <div class="hero1">
+                <!-- <iframe class="pdf" src="attatchments/"></iframe> -->
+                <p>Daggar the Chosen</p>
+                <a href="hero1.html">
+                    <img class="nameplate" src="attatchments/Daggar_link.png" alt="Daggar character Name plate">
+                </a>
+            </div>
+            <div class="hero2">
+                <p>Czazsar Thein</p>
+                <a href="hero2.html">
+                    <img class="nameplate" src="attatchments/Czazar_link.png" alt="Czasar character name plate">
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Josh Ramirez</p>
+        <a href="site-plan.html">Site Plan</a>
+        <a href="museum.html">Home</a>
+    </footer>
+    <script src="scripts/museum-scripts.js"></script>
+</body>
 </html>
