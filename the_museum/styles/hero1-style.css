@@ -83,6 +83,50 @@ main {
     margin: 0 auto;
 }
 
+#stats{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+}
+
+.str {
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.dex {
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.con {
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.int {
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.wis {
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.cha {
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
 /* footer */
 
 footer{
