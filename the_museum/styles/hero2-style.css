@@ -1,0 +1,108 @@
+body {
+    background-color: #F6D5B0;
+    font-family: Lato, Helvetica, sans-serif;
+    color: #000000;
+}
+
+/* header */
+header {
+    background-color: #964F37;
+    padding: 5px 25px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    border: solid 2px #F6D5B0;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #964F37;
+    color: #F6D5B0;
+    font-weight: bolder;
+    padding: 16px;
+    font-size: 24px;
+    border: solid 2px #F6D5B0;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #31572C;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    /* float: right; */
+    position: relative;
+    display: inline-block;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F6D5B0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 6.25%;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #31572C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
+
+/* footer */
+
+footer{
+    background-color: #964F37;
+    color: #F6D5B0;
+    font-size: .8em;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #F6D5B0;
+    padding: 15px 50px;
+}
+
+footer p {
+    padding-right: 25px;
+}
+
+footer a:hover{
+    color: #31572C;
+}
