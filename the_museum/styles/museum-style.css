@@ -22,8 +22,6 @@ header {
     width: 100px;
     border-radius: 50%;
     border: solid 2px #F6D5B0;
-    /* justify-content: center;
-    align-items: center; */
 }
 
 /* Dropdown Button */
@@ -79,14 +77,16 @@ header {
 .show {display:block;}
 
 /* main */
+
 main {
     text-align: center;
+    margin: 0 auto;
 }
 
 .intro {
     background-color: #964F37;
-    width: 75%;
     margin: 0 auto;
+    width: 65%;
     border: solid 2.5px #31572C;
     font-size: 1.2em;
 }
