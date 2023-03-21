@@ -6,7 +6,7 @@ body {
 
 /* header */
 header {
-    background-color: #964F37;
+    background-color: rgba(150,79,55);
     padding: 5px 25px;
     width: 85%;
     margin: 0 auto;
@@ -130,7 +130,7 @@ main {
 /* footer */
 
 footer{
-    background-color: #964F37;
+    background-color: rgba(150,79,55,.85);
     color: #F6D5B0;
     font-size: .8em;
     padding: 25px 50px;
@@ -139,6 +139,7 @@ footer{
     font-size: 1.2em;
     width: 85%;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 footer a {
@@ -154,6 +155,7 @@ footer p {
 footer a:hover{
     color: #31572C;
 }
+
 
 /* small screen compatibility */
 
