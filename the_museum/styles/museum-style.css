@@ -6,7 +6,7 @@ body {
 
 /* header */
 header {
-    background-color: #964F37;
+    background-color: rgba(150,79,55);
     padding: 5px 25px;
     width: 85%;
     margin: 0 auto;
@@ -84,11 +84,12 @@ main {
 }
 
 .intro {
-    background-color: #964F37;
+    background: linear-gradient(rgba(150,79,55,1), rgba(150,79,55,.85));
     margin: 0 auto;
     width: 65%;
     border: solid 2.5px #31572C;
     font-size: 1.2em;
+    color: #F6D5B0
 }
 
 .links {
@@ -135,7 +136,7 @@ main {
 /* footer */
 
 footer{
-    background-color: #964F37;
+    background-color: rgba(150,79,55,.85);
     color: #F6D5B0;
     font-size: .8em;
     padding: 25px 50px;
@@ -144,6 +145,7 @@ footer{
     font-size: 1.2em;
     width: 85%;
     margin: 0 auto;
+    font-weight: bold;
 }
 
 footer a {
