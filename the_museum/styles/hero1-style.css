@@ -154,3 +154,15 @@ footer p {
 footer a:hover{
     color: #31572C;
 }
+
+/* small screen compatibility */
+
+@media screen and (max-width: 600px) {
+    .links{
+        display: inline-block;
+    }
+
+    .hero1 img, .hero2 img {
+        width: 85%;
+    }
+}
