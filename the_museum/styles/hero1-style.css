@@ -126,6 +126,22 @@ main {
     grid-row: 2/3;
 }
 
+.story {
+    margin: 0 auto;
+    width: 85%;
+    border: #31572C 2.5px solid;
+    border-top: none;
+}
+
+.intro {
+    border: #964F37 solid 2.5px;
+    border-left: none;
+    border-right: none;
+}
+
+.description{
+    font-weight: bold;
+}
 
 /* footer */
 
@@ -159,12 +175,6 @@ footer a:hover{
 
 /* small screen compatibility */
 
-@media screen and (max-width: 600px) {
-    .links{
-        display: inline-block;
-    }
+/* @media screen and (max-width: 600px) {
 
-    .hero1 img, .hero2 img {
-        width: 85%;
-    }
-}
+} */

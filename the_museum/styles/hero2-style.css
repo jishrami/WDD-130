@@ -158,12 +158,6 @@ footer a:hover{
 
 /* small screen compatibility */
 
-@media screen and (max-width: 600px) {
-    .links{
-        display: inline-block;
-    }
+/* @media screen and (max-width: 600px) {
 
-    .hero1 img, .hero2 img {
-        width: 85%;
-    }
-}
+} */
