@@ -159,5 +159,53 @@ footer a:hover{
 /* small screen compatibility */
 
 /* @media screen and (max-width: 600px) {
+    .str {
+        margin: 0 auto;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 10px;
+    }
+    
+    .dex {
+        margin: 0 auto;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    
+    .con {
+        margin: 0 auto;
+        grid-column: 1/2;
+        grid-row: 2/3
+    }
+    
+    .int {
+        margin: 0 auto;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    
+    .wis {
+        margin: 0 auto;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    
+    .cha {
+        margin: 0 auto;
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
 
+    footer {
+        font-size: .8em;
+        width: 75%;
+    }
+
+    footer a {
+        padding: 10px 25px;
+    }
+
+    footer p {
+        padding-right: 5px;
+    }
 } */
