@@ -88,12 +88,16 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 50%;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .str {
     margin: 0 auto;
     grid-column: 1/2;
     grid-row: 1/2;
+    padding: 10px;
 }
 
 .dex {
@@ -126,6 +130,31 @@ main {
     grid-row: 2/3;
 }
 
+#story {
+    margin: 0 auto;
+    width: 85%;
+    border: solid 2.5px #31572C;
+    border-top: none;
+}
+
+.intro {
+    border: solid 2.5px #31572C;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+}
+
+.introduction{
+    font-weight: bold;
+}
+
+.diary {
+    padding: 15px;
+}
+
+.spacer {
+    padding: 25px;
+}
 /* footer */
 
 footer{
@@ -158,7 +187,7 @@ footer a:hover{
 
 /* small screen compatibility */
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .str {
         margin: 0 auto;
         grid-column: 1/2;
@@ -208,4 +237,4 @@ footer a:hover{
     footer p {
         padding-right: 5px;
     }
-} */
+}
