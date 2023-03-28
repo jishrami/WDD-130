@@ -156,9 +156,12 @@ main {
     padding: 25px;
 }
 
-/* .pdf{
+.pdf{
+    display: block;
     margin: 0 auto;
-} */
+    width: 85%;
+    height: 500px;
+}
 
 /* footer */
 
