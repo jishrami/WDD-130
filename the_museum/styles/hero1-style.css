@@ -237,6 +237,10 @@ footer a:hover{
         width: 75%;
     }
 
+    .spacer iframe {
+        display: none;
+    }
+
     footer a {
         padding: 10px 25px;
     }

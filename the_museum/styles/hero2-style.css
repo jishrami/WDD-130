@@ -233,6 +233,10 @@ footer a:hover{
         grid-row: 3/4;
     }
 
+    .pdf {
+        display: none;
+    }
+
     footer {
         font-size: .8em;
         width: 75%;
