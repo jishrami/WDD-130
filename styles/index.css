@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0 auto;
@@ -13,15 +13,23 @@ h1 {
 }
 
 #emphasis {
-    color: limegreen;
+    color: darkslategray;
+}
+
+nav{
+    background-color: rgb(255, 189, 65);
+    width: 75%;
+    margin: 0 auto;
 }
 
 nav a {
-    background-color: yellow;
-    color: black;
+    /* background-color: rgb(255, 189, 65); */
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border: 1px solid; 
+    border: 2px solid pink; 
+    padding: 10fr;
 }
+
 
 img {
     width: 30%;
